@@ -33,3 +33,5 @@ The link **fails** with a bogus "struct type mismatch" error, despite both shade
 - **Fragment** (`res/raw/fragment.glsl`): Declares and uses `uniform samplerExternalOES tex`.
 
 Both declare the same uniform with the same type. The vertex shader’s declaration is intentionally unused to trigger the Tegra bug.
+
+PS: This bug is currently been tracked here: https://forums.developer.nvidia.com/t/nvidia-tegra-samplerexternaloes-shader-linker-bug/364470
